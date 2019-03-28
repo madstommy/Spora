@@ -1,0 +1,36 @@
+.bgVideo{
+    height: 600px;
+    z-index: -1;
+    position: relative;
+}
+
+.videoBox{
+    position: relative;
+}
+.messageBox{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: whitesmoke;
+    margin-top: 200px;
+    text-shadow: 2px 2px rgba(0,0,0,0.2);
+}
+
+.lion{
+    margin: 0;
+    left: -180px;
+    height: 600px;
+    position: relative;
+}
+
+.messageBox hr{
+    width: 20%;
+    background-color: whitesmoke;
+}
+
+@media only screen and (min-width: 1000px){
+    .bgVideo{
+        width: 100%;
+        height: auto;
+    }
+}

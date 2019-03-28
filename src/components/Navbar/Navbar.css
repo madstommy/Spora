@@ -1,0 +1,34 @@
+.navFlex{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+img{
+    height: 100%;
+    width: auto;
+    margin-left: 50px;
+}
+
+.navButton{
+    background: none;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    color: rgba(66, 116, 244);
+    transition: background-color 0.5s ease;
+    margin: 10px 50px 10px 0px;
+    cursor: pointer;
+}
+
+.navButton:hover{
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: 5px 5px rgba(0,0,0,0.05);
+}
+
+.navButton:active{
+    transition: none;
+    background-color: rgba(0,0,0,0.8);
+}
