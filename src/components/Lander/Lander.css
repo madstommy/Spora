@@ -1,11 +1,15 @@
 .bgVideo{
-    height: 600px;
+    width: 100%;
+    height: auto;
     z-index: -1;
     position: relative;
 }
 
 .videoBox{
     position: relative;
+    border-top: 2px solid black;
+    height: 750px;
+    overflow: hidden;
 }
 .messageBox{
     position: absolute;
@@ -18,8 +22,8 @@
 
 .lion{
     margin: 0;
-    left: -180px;
-    height: 600px;
+    left: -240px;
+    height: 650px;
     position: relative;
 }
 
@@ -28,9 +32,13 @@
     background-color: whitesmoke;
 }
 
-@media only screen and (min-width: 1000px){
+@media only screen and (max-width: 1250px){
     .bgVideo{
-        width: 100%;
-        height: auto;
+        height: 100%;
+        width: auto;
+    }
+
+    .videoBox{
+        height: 600px;
     }
 }

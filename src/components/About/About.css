@@ -1,0 +1,14 @@
+.aboutP{
+    margin-top: 10;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+Transition{
+    margin: 0;
+}
+
+.containerT{
+    overflow: hidden;
+    border-top: 2px solid black;
+}
