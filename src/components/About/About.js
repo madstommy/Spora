@@ -10,7 +10,7 @@ const About = ({showAboutMessage}) => {
             enter={{height: 'auto'}}
             leave={{height: 0}}>
             {showAboutMessage => showAboutMessage && (props => 
-                    <animated.div  class='containerT' style={props}>
+                    <animated.div  className='containerT' style={props}>
                         <h3>Lorem ipsum</h3>
                         <p  className='aboutP'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lacinia sem sit amet neque auctor bibendum. Etiam non ligula tristique, consequat mauris vitae, consequat diam. Donec faucibus nisl ante, nec ullamcorper enim tincidunt vel. Pellentesque sit amet pharetra justo. Morbi at ligula ullamcorper dui luctus dapibus. Quisque ornare ex vel massa fermentum, eu suscipit lorem mollis. In mollis nulla nulla, nec tempor ipsum convallis quis. Sed lobortis lacus lacinia, rutrum ligula vel, tempus nulla.

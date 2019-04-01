@@ -8,9 +8,9 @@ const Socials =  () => {
  return (
     <footer  >
         <div className='socialFlex' >
-            <a href='https://www.instagram.com/' target="_blank" ><FontAwesomeIcon icon={faInstagram} /></a>
-            <a href='https://twitter.com/' target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
-            <a href='mailto:someone@example.com?Subject=Hello%20again' target="_blank"> <FontAwesomeIcon icon={faEnvelope} /></a>
+            <a href='https://www.instagram.com/' target="_blank" rel='noopener noreferrer'><FontAwesomeIcon icon={faInstagram} /></a>
+            <a href='https://twitter.com/' target="_blank" rel='noopener noreferrer'><FontAwesomeIcon icon={faTwitter} /></a>
+            <a href='mailto:someone@example.com?Subject=Hello%20again'> <FontAwesomeIcon icon={faEnvelope} /></a>
         </div>
     </footer>
  
